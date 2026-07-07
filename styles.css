@@ -513,6 +513,7 @@
   font-size: 1.02rem;
   line-height: 1.65;
   font-weight: 700;
+  font-style: italic;
 }
 
 .founder-scripture span {
@@ -523,4 +524,5 @@
   font-weight: 900;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  font-style: normal;
 }
