@@ -481,3 +481,25 @@
     padding: 32px !important;
   }
 }
+.old-price {
+  color: #7a8797 !important;
+  font-weight: 800;
+  text-decoration: line-through;
+  margin-bottom: 6px !important;
+}
+
+.discount-note {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(246, 200, 95, 0.2);
+  color: #8a5a00 !important;
+  font-size: 0.9rem;
+  font-weight: 900;
+  margin-bottom: 16px !important;
+}
+
+.july-discount-card .badge {
+  background: linear-gradient(135deg, #f6c85f, #f59f00) !important;
+  color: #062f4f !important;
+}
