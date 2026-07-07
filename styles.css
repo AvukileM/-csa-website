@@ -208,3 +208,55 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Final contact spacing and section overlap fixes */
+.cta.contact-upgrade {
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 54px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cta.contact-upgrade > div {
+  min-width: 0;
+}
+
+.cta.contact-upgrade .whatsapp-contact-card {
+  width: 100%;
+  min-height: 340px;
+  padding: 44px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta.contact-upgrade .whatsapp-contact-card h3 {
+  font-size: clamp(2rem, 3.2vw, 2.7rem);
+}
+
+.cta.contact-upgrade .whatsapp-contact-card a {
+  margin-top: 8px;
+}
+
+.platform {
+  margin-top: 56px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-upgrade + .platform,
+.contact-upgrade + .section.platform {
+  margin-top: 72px;
+}
+
+@media (max-width: 980px) {
+  .cta.contact-upgrade {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .cta.contact-upgrade .whatsapp-contact-card {
+    min-height: auto;
+    padding: 34px 28px;
+  }
+}
