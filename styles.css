@@ -503,3 +503,24 @@
   background: linear-gradient(135deg, #f6c85f, #f59f00) !important;
   color: #062f4f !important;
 }
+.founder-scripture {
+  margin: 18px 0 22px;
+  padding: 18px 22px;
+  border-left: 4px solid #087c78;
+  background: rgba(8, 124, 120, 0.06);
+  border-radius: 0 18px 18px 0;
+  color: #062f4f;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  font-weight: 700;
+}
+
+.founder-scripture span {
+  display: block;
+  margin-top: 8px;
+  color: #087c78;
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
