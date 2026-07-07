@@ -264,3 +264,220 @@
     padding: 34px 28px;
   }
 }
+
+/* Tutor careers boxed layout and roadmap */
+.careers-page .careers-benefits {
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+
+.careers-page .career-benefit-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+  max-width: 1220px !important;
+  margin: 48px auto 0 !important;
+}
+
+.careers-page .career-benefit-grid article {
+  background: #ffffff !important;
+  border: 1px solid rgba(4, 38, 66, 0.1) !important;
+  border-radius: 30px !important;
+  padding: 34px 28px !important;
+  min-height: 250px !important;
+  box-shadow: 0 24px 70px rgba(0, 31, 63, 0.09) !important;
+}
+
+.careers-page .career-benefit-grid article:nth-child(1) span::before { content: "01"; }
+.careers-page .career-benefit-grid article:nth-child(2) span::before { content: "02"; }
+.careers-page .career-benefit-grid article:nth-child(3) span::before { content: "03"; }
+.careers-page .career-benefit-grid article:nth-child(4) span::before { content: "04"; }
+
+.careers-page .career-benefit-grid span {
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: 999px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #e8f5f3 !important;
+  color: #087c78 !important;
+  font-weight: 900 !important;
+  margin-bottom: 24px !important;
+}
+
+.careers-page .career-benefit-grid h3 {
+  font-size: 1.45rem !important;
+  line-height: 1.1 !important;
+  margin-bottom: 12px !important;
+  color: #062f4f !important;
+}
+
+.careers-page .career-benefit-grid p {
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+  color: #56657a !important;
+}
+
+.careers-page .career-details {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 32px !important;
+  align-items: stretch !important;
+  max-width: 1220px !important;
+  margin: 0 auto !important;
+  padding: 64px 24px !important;
+}
+
+.careers-page .career-detail-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(4, 38, 66, 0.12) !important;
+  border-radius: 32px !important;
+  padding: 44px 48px !important;
+  box-shadow: 0 24px 70px rgba(0, 31, 63, 0.1) !important;
+  min-height: 290px !important;
+}
+
+.careers-page .career-detail-card h2 {
+  font-size: clamp(2rem, 3.2vw, 2.8rem) !important;
+  line-height: 1.05 !important;
+  margin: 0 0 30px !important;
+  color: #062f4f !important;
+}
+
+.careers-page .career-detail-card ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: grid !important;
+  gap: 18px !important;
+}
+
+.careers-page .career-detail-card li {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  font-size: 1.08rem !important;
+  line-height: 1.45 !important;
+  color: #102235 !important;
+}
+
+.careers-page .career-detail-card li::before {
+  content: "✓" !important;
+  width: 28px !important;
+  height: 28px !important;
+  flex: 0 0 28px !important;
+  border-radius: 999px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #087c78 !important;
+  color: #ffffff !important;
+  font-size: 0.9rem !important;
+  font-weight: 900 !important;
+}
+
+.careers-page .application-process {
+  max-width: 1320px !important;
+  margin: 0 auto !important;
+  padding: 76px 24px 86px !important;
+}
+
+.careers-page .application-process .section-head {
+  margin-bottom: 54px !important;
+}
+
+.careers-page .application-process .section-head h2 {
+  font-size: clamp(2.7rem, 5vw, 4.6rem) !important;
+  line-height: 1 !important;
+  color: #062f4f !important;
+}
+
+.careers-page .roadmap-grid {
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  gap: 28px !important;
+  align-items: stretch !important;
+  margin-top: 54px !important;
+}
+
+.careers-page .roadmap-grid article {
+  position: relative !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(4, 38, 66, 0.12) !important;
+  border-radius: 28px !important;
+  padding: 56px 24px 34px !important;
+  min-height: 280px !important;
+  text-align: center !important;
+  box-shadow: 0 24px 65px rgba(0, 31, 63, 0.09) !important;
+}
+
+.careers-page .roadmap-grid article::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 78px !important;
+  right: -28px !important;
+  width: 28px !important;
+  height: 3px !important;
+  background: repeating-linear-gradient(90deg, #087c78 0 8px, transparent 8px 14px) !important;
+}
+
+.careers-page .roadmap-grid article:last-child::after {
+  display: none !important;
+}
+
+.careers-page .roadmap-grid span {
+  position: absolute !important;
+  top: -24px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: 999px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: linear-gradient(135deg, #062f4f, #087c78) !important;
+  color: #ffffff !important;
+  font-size: 1.35rem !important;
+  font-weight: 900 !important;
+  box-shadow: 0 16px 34px rgba(0, 31, 63, 0.2) !important;
+}
+
+.careers-page .roadmap-grid h3 {
+  font-size: 1.5rem !important;
+  line-height: 1.1 !important;
+  margin: 8px 0 16px !important;
+  color: #062f4f !important;
+}
+
+.careers-page .roadmap-grid p {
+  margin: 0 auto !important;
+  max-width: 190px !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+  color: #56657a !important;
+}
+
+@media (max-width: 1100px) {
+  .careers-page .career-benefit-grid,
+  .careers-page .roadmap-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .careers-page .roadmap-grid article::after {
+    display: none !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .careers-page .career-benefit-grid,
+  .careers-page .career-details,
+  .careers-page .roadmap-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .careers-page .career-detail-card {
+    padding: 32px !important;
+  }
+}
