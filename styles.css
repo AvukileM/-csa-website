@@ -26,3 +26,58 @@
 .mentorship .section-head p:last-child{max-width:760px;margin:12px auto 0;color:var(--muted);font-size:1.05rem}.mentorship-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:stretch}.mentor-feature{background:linear-gradient(145deg,var(--navy),var(--teal));border-radius:34px;padding:38px;color:#fff;box-shadow:var(--shadow)}.mentor-feature h3{color:#fff;font-size:2rem;margin-bottom:18px}.mentor-feature p{color:rgba(255,255,255,.82);margin-top:14px}.mentor-feature .eyebrow{color:#d9eff3}.mentor-feature strong{color:#fff}.mentor-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}.mentor-cards article{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 10px 30px rgba(6,41,74,.05)}.mentor-cards span{display:inline-flex;width:38px;height:38px;align-items:center;justify-content:center;border-radius:50%;background:#eaf2fb;color:var(--blue);font-weight:950;margin-bottom:16px}.mentor-cards h3{margin-bottom:8px}.platform{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;background:var(--navy);border-radius:38px;color:#fff}.platform h2{color:#fff}.platform p{color:rgba(255,255,255,.8);font-size:1.06rem;margin-bottom:12px}.platform strong{color:#fff}.platform .eyebrow{color:#d9eff3}
 @media(max-width:980px){.mentorship-layout,.platform{grid-template-columns:1fr}.mentor-cards{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.mentor-cards{grid-template-columns:1fr}.mentor-feature{padding:28px}.mentor-feature h3{font-size:1.55rem}}
+
+.whatsapp-big {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 28px;
+  border-radius: 999px;
+  background: #0b7a3b;
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 16px 40px rgba(11, 122, 59, 0.25);
+}
+
+.whatsapp-contact-card {
+  background: linear-gradient(135deg, #063f2b, #0b7a3b);
+  color: white;
+  padding: 32px;
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+}
+
+.whatsapp-contact-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.whatsapp-contact-card p {
+  margin-bottom: 22px;
+  opacity: 0.95;
+}
+
+.whatsapp-contact-card a {
+  display: inline-flex;
+  padding: 16px 24px;
+  border-radius: 999px;
+  background: white;
+  color: #063f2b;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.whatsapp-contact-card small {
+  display: block;
+  margin-top: 16px;
+  opacity: 0.85;
+}
+
+.whatsapp-float {
+  font-size: 1rem;
+  padding: 16px 24px;
+  border-radius: 999px;
+  font-weight: 800;
+}
